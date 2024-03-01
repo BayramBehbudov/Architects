@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 8px;
+    height: 70px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+header a {
+    color: black;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+header span {
+    font-weight: bold;
+}
+
+/*main*/
+/*basliq*/
+.BRrel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.BRrel img{
+    width: 100%;   
+}
+
+.BRabs {
+    position: absolute;
+    color: white;
+}
+.BRabs>p{
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.BRspan{
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 50px;
+}
+
+/*project*/
+.project{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.projectbox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.imgbox{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 5px 2.5px;
+    padding: 5px;
+    
+}
+.imgbox img{
+    width: 300px;
+    height: 200px;
+}
+.imgspan{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    top: 0;
+}
+/*about*/
+.about {
+    width: 100%;
+}
+.Lorem{
+    margin: 30px;
+}
+.aboutbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.aboutboxitem {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 5px;
+
+}
+.aboutbox img{
+    width: 300px;
+
+}
+.aboutboxitem button{
+    background-color: #EFEFEF;
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+/*contact*/
+.contactform {
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.contactform input {
+    width: 98%;
+    padding: 8px;
+    margin: 5px 3px 0px 3px;
+}
+.sendbutton{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
